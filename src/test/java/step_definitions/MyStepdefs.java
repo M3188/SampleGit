@@ -25,6 +25,7 @@ public class MyStepdefs {
     public void iNavigateToTheSiteWithValidUrl() {
         driver = new ChromeDriver();
       driver.navigate().to("https://www.phptravels.net/register");
+        //driver.findElement(By.cssSelector("#li_myaccount>ul >li:nth-child(2)>a"));
         /*driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
       driver.findElement(By.xpath("//li[@id='li_myaccount']")).click();
         List<WebElement> elements = driver.findElements(By.partialLinkText("register"));
